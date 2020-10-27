@@ -1,0 +1,48 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	/*background-image: url("img/wall.gif");*/
+	background-color: black;
+}
+.container
+{
+	width: 100%;
+	height: 78vh;
+	overflow: hidden;
+	/*background-color: blanchedalmond;*/
+	background-attachment: fixed;
+}
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+
+.example_e {
+margin: 50px;
+border: none;
+background: #37B6B7;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 35px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+
+}
+
+.example_e:hover {
+color: #FFF !important;
+
+letter-spacing: 2.5px;
+background: rgba(55,182,183,0.60);
+webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.5s ease 0s;
+}
+
+a {
+	text-decoration: none;
+}
